@@ -1,0 +1,60 @@
+body 
+{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(167, 117, 87) ;
+}
+
+nav
+{
+    padding:1rem;
+}
+
+ul
+
+{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    list-style: none;
+    width:100%;
+
+}
+
+a 
+{
+    color: rgb(65, 98, 85);
+    border: 1px solid rgb(65, 98, 85);
+    padding: 10px;
+    
+}
+
+.label
+{
+    width:100%;
+    background-color: rgb(74, 45, 32);
+    color:white;
+    letter-spacing: 10px;
+    text-align: center;
+    margin-left:-10px;
+    padding:20px;
+    
+}
+.main
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height:70vh;
+    color:white;
+}
+.footer 
+{
+    width:100%;
+    background-color: rgb(74, 45, 32);
+    color:white;
+    margin-left:-10px;
+    padding:3rem;
+    text-align: center;
+    height:5vh;
+
+}
